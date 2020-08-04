@@ -9,9 +9,11 @@
         var c = document.getElementById('current-time');
         
         var d = new Date();
-        
-        c.innerHTML = d.toTimeString();
+        var hours = d.getHours();
+	        if (hours > 12) {
+		        hours -= 12;
+	        }
+        c.innerHTML = hours + ':' + d.getMinutes();
     });
-    
     
     })();
