@@ -5,15 +5,19 @@
 (function(){
     'use strict';
     console.log('Is this working?');
-    document.addEventListener('DOMContentLoaded', function(){
+    function counter() {
         var c = document.getElementById('current-time');
-        
         var d = new Date();
         var hours = d.getHours();
 	        if (hours > 12) {
 		        hours -= 12;
 	        }
-        c.innerHTML = hours + ':' + d.getMinutes();
+        c.innerHTML = `${hours}:${d.getMinutes()}:${d.getSeconds()}`;
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+       counter();
+       setInterval(counter, 50)
     });
     
     })();

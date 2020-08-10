@@ -74,16 +74,21 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  text-transform: uppercase;
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
 }
 
 .content {
-  position: absolute;
+  position: fixed;
   background: rgba(0, 0, 0, 0.7);
-  padding: 30px;
+  padding: 27px;
   color: #FFFFFF;
   font-weight: 200;
-  line-height: 130%;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+.time{
+  letter-spacing: 3px;
 }
