@@ -4,22 +4,6 @@
 // Write your JavaScript code.
 (function(){
     'use strict';
-   /*
-    function counter() {
-        var c = document.getElementById('current-time');
-        var d = new Date();
-        var hours = d.getHours();
-	        if (hours > 12) {
-		        hours -= 12;
-	        }
-        c.innerHTML = `${hours}:${d.getMinutes()}:${d.getSeconds()}`;
-    }
-
-    document.addEventListener('DOMContentLoaded', function(){
-       counter();
-       setInterval(counter, 50)
-    });
-    */
    document.addEventListener('DOMContentLoaded', function(){
 	var currentTime = document.getElementById('current-time'),
 		currentDate = document.getElementById('current-date');
