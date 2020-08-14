@@ -69,7 +69,7 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
-
+/*
 .label {
   margin: 0;
   padding: 0;
@@ -91,4 +91,13 @@ body {
 }
 .time{
   letter-spacing: 3px;
+}
+*/
+label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
