@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ramiz\\Desktop\\.NET\\dotNet\\dotNet.csproj": {}
+    "C:\\Users\\Anna_Lukashevych\\Desktop\\my\\dotNet\\dotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ramiz\\Desktop\\.NET\\dotNet\\dotNet.csproj": {
+    "C:\\Users\\Anna_Lukashevych\\Desktop\\my\\dotNet\\dotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ramiz\\Desktop\\.NET\\dotNet\\dotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Anna_Lukashevych\\Desktop\\my\\dotNet\\dotNet.csproj",
         "projectName": "dotNet",
-        "projectPath": "C:\\Users\\ramiz\\Desktop\\.NET\\dotNet\\dotNet.csproj",
-        "packagesPath": "C:\\Users\\ramiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ramiz\\Desktop\\.NET\\dotNet\\obj\\",
+        "projectPath": "C:\\Users\\Anna_Lukashevych\\Desktop\\my\\dotNet\\dotNet.csproj",
+        "packagesPath": "C:\\Users\\Anna_Lukashevych\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anna_Lukashevych\\Desktop\\my\\dotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ramiz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Anna_Lukashevych\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
